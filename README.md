@@ -2,48 +2,28 @@
 
 Welcome to CreatorStudio! This application allows YouTubers to delegate video uploading permissions to editors, streamlining the content creation process. The admin has control over the approval process, ensuring only approved videos are published on the channel.
 
-## How it Works
+## Features
 
-1. **Admin Approval Process**
-   - YouTubers can delegate video uploading permissions to editors.
-   - Admins review and approve the videos submitted by editors.
-   - Approved videos are sent to the server for processing.
+- **Admin Approval Process:** Delegate video uploading permissions, review, and approve content before processing.
 
-2. **Platform for Editors and Admins**
-   - Build a centralized platform for editors and admins to sign in.
-   - Admins can manage and approve video submissions.
-   - Editors can access pending tasks and submit videos for approval.
+- **Platform for Editors and Admins:** Centralized platform for signing in, managing tasks, and approving video submissions.
 
-3. **Video Handling**
-   - Videos are uploaded to our server first.
-   - After admin approval, videos are transferred to the YouTube server.
-   - Videos are automatically deleted from our server after a specified time.
+- **Video Handling:** Securely upload videos to our server, transfer approved content to YouTube.
 
 ## Editor Features
 
-### Authentication
-- Editors can sign in using Google OAuth for secure authentication.
+- **Authentication:** Editors sign in securely using Google OAuth.
 
-### Task Management
-- View pending tasks assigned by YouTubers.
-- Sort tasks based on submission dates or assigned dates.
-- Open pending tasks to start the video submission process.
+- **Task Management:** View, sort, and open pending tasks efficiently.
 
-### Video Submission
-- Upload videos with an optional thumbnail.
-- Track progress during the upload process.
-- Receive confirmation once the upload is successful.
+- **Video Submission:** Upload videos with optional thumbnails, track progress, and receive prompt confirmation.
 
 ## Creator Features
 
-### Authentication
-- Creators can sign in using Google OAuth for secure authentication.
+- **Authentication:** Creators sign in securely using Google OAuth.
 
-### Editor Management
-- Search for editors based on their email IDs.
-- View a list of assigned editors.
+- **Editor Management:** Easily search for editors and manage assignments.
 
-### Video Review
-- Access submitted videos with an integrated video player to preview content.
-- Add comments for improvements.
-- Accept videos for upload to the creator's YouTube channel.
+- **Video Review:** Preview submitted videos, provide comments for improvements, and accept videos for upload to the creator's YouTube channel.
+
+
