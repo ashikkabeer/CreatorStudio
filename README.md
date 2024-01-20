@@ -2,6 +2,16 @@
 
 Welcome to CreatorStudio! This application allows YouTubers to delegate video uploading permissions to editors, streamlining the content creation process. The admin has control over the approval process, ensuring only approved videos are published on the channel.
 
+
+| Technology      |
+|-----------------|
+| 🚀 Node.js      | 
+| ⚡ Express.js   |                     
+| 🔍 TypeScript  |                      
+| 🐘 PostgreSQL   |                     
+| 🛠 Prisma       |                  
+
+  
 ## Features
 
 - **Admin Approval Process:** Delegate video uploading permissions, review, and approve content before processing.
