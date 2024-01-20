@@ -4,7 +4,7 @@ import editorRoute from '../routes/editor.routes';
 
 const router = Router();
 
-router.use("/editor", editorRoute);
+router.use("/editor",editorRoute);
 router.use("/creator", creatorRoute);
 
 
