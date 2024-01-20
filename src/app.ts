@@ -2,14 +2,17 @@ require('dotenv').config();
 import express, { Application, Request, Response, NextFunction } from 'express';
 const app: Application = express();
 
+//Importing packages
 import path from 'path';
 import logger from 'morgan';
-import indexRouter from './routes/index.routes';
 
 const PORT = process.env.PORT || 3000;
 
-// Middleware for routes
+/// Handling routes
+import indexRouter from './routes/index.routes';
 app.use('/', indexRouter);
+
+// Handling middlewares
 app.use(express.static('public'));
 app.use(logger('dev'));
 
